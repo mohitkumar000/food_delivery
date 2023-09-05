@@ -8,7 +8,7 @@ export default function Login() {
   //make function to hadnle submit
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:9000/api/loginuser", {
+    const response = await fetch("http://localhost:2000/api/loginuser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
